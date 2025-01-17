@@ -3,16 +3,16 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
-    color: #333;
+    color: pink;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: linear-gradient(90deg, #4CAF50, #81C784);
+    background: linear-gradient(90deg, purple, pink);
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px pink (0, 0, 0, 0.1);
 }
 
 .link-header {
@@ -24,7 +24,7 @@ header {
 }
 
 .link-header:hover {
-    color: #FFEB3B;
+    color: purple;
 }
 
 /* Main Section */
@@ -32,7 +32,7 @@ main {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -40,14 +40,14 @@ main {
 
 h1 {
     font-size: 2.5em;
-    color: #4CAF50;
+    color: purple;
     margin-bottom: 10px;
 }
 
 p {
     margin: 15px 0;
     font-size: 18px;
-    color: #555;
+    color: black;
 }
 
 /* Navigation */
@@ -59,8 +59,8 @@ nav {
     display: inline-block;
     margin: 0 10px;
     padding: 10px 20px;
-    color: #fff;
-    background-color: #4CAF50;
+    color: white;
+    background-color: purple;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
@@ -68,7 +68,7 @@ nav {
 }
 
 .link-nav:hover {
-    background-color: #388E3C;
+    background-color: purple;
     transform: scale(1.1);
 }
 
